@@ -21,7 +21,7 @@ const FetchMore = ({
         onClick={() => doFetchMore(pageInfo.endCursor, payload)}
         disabled={!pageInfo.hasNextPage}
       >
-        {pageInfo.hasNextPage ? `More ${children}` : `No More ${children}` }
+        {pageInfo.hasNextPage ? `Mas ${children}` : `No Mas ${children}` }
       </ButtonUnobtrusive>
     )}
   </div>

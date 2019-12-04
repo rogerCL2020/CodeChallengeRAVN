@@ -36,7 +36,7 @@ const OrganizationSearch = ({
         onChange={e => onChange(e.target.value)}
       />
       {' '}
-      <Button color={'white'} type="submit">Search</Button>
+      <Button color={'white'} type="submit">Buscar</Button>
     </form>
   </div>
 

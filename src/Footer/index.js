@@ -18,7 +18,7 @@ const Footer = () =>
       <small>
         <span className="Footer-text">Realizado con GitHub API, GraphQL, Apollo Client y React JS</span>
         {' '}
-        <Link className="Footer-text">Repositorio GitHub</Link>
+        <Link className="Footer-link">Repositorio GitHub</Link>
         {' '}
         <span className="Footer-text">realizado el 28/09/2019</span>
         {' '}
